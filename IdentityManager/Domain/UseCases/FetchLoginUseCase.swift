@@ -8,9 +8,9 @@
 import Foundation
 
 protocol FetchLoginUseCase {
-    func fetch(
-        completion: @escaping (Result<LoginPage, Error>) -> Void
-    ) -> Cancellable?
+    func fetch(username: String,
+               password: String,
+               completion: @escaping (Result<LoginPage, Error>) -> Void) -> Cancellable?
 }
 
 class DefaultFetchLoginUseCase: FetchLoginUseCase {
@@ -20,9 +20,10 @@ class DefaultFetchLoginUseCase: FetchLoginUseCase {
         self.loginRepository = loginRepository
     }
     
-    func fetch(
-        completion: @escaping (Result<LoginPage, Error>) -> Void
+    func fetch(username: String,
+               password: String,
+               completion: @escaping (Result<LoginPage, Error>) -> Void
     ) -> Cancellable? {
-        return loginRepository.fetchLogin(completion: completion)
+        return loginRepository.fetchLogin(username: username, password: password, completion: completion)
     }
 }

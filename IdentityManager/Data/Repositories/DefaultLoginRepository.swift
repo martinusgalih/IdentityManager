@@ -17,17 +17,17 @@ final class DefaultLoginRepository {
 }
 
 extension DefaultLoginRepository: LoginRepository {
-    func fetchLogin(
-        completion: @escaping (Result<LoginPage, Error>) -> Void
-    ) -> Cancellable? {
+    func fetchLogin(username: String,
+                    password: String,
+                    completion: @escaping (Result<LoginPage, Error>) -> Void) -> Cancellable? {
         let task = RepositoryTask()
-        let endpoint = APIEndpoints.login(username: "", password: "")
+        let endpoint = APIEndpoints.login(username: username, password: password)
         task.networkTask = dataTransferService.request(
             with: endpoint
         ) { result in
             switch result {
             case .success(let response):
-                let page = response.toDomain()
+                let page = response.data.toDomain()
                 completion(.success(page))
             case .failure(let error):
                 completion(.failure(error))

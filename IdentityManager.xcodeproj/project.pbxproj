@@ -25,8 +25,15 @@
 		90127C222B7A72EA00CE7202 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C212B7A72EA00CE7202 /* Observable.swift */; };
 		90127C242B7A78A600CE7202 /* DefaultLoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C232B7A78A600CE7202 /* DefaultLoginRepository.swift */; };
 		90127C272B7A795200CE7202 /* RepositoryTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C262B7A795200CE7202 /* RepositoryTask.swift */; };
+		90127C2C2B7A8F5B00CE7202 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C2A2B7A8F5B00CE7202 /* LoginViewController.swift */; };
+		90127C2D2B7A8F5B00CE7202 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90127C2B2B7A8F5B00CE7202 /* LoginViewController.xib */; };
+		90127C302B7A924700CE7202 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C2F2B7A924700CE7202 /* CustomTextField.swift */; };
+		90127C322B7A92FA00CE7202 /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C312B7A92FA00CE7202 /* UIColor+hex.swift */; };
+		90127C342B7A964500CE7202 /* UILabel+styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C332B7A964500CE7202 /* UILabel+styles.swift */; };
+		90127C362B7A972D00CE7202 /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C352B7A972D00CE7202 /* String+extension.swift */; };
+		907FDD1B2B7A9E78000C3044 /* UIView+loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907FDD1A2B7A9E78000C3044 /* UIView+loading.swift */; };
+		907FDD1D2B7AACC6000C3044 /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907FDD1C2B7AACC6000C3044 /* SnackBar.swift */; };
 		90BEAF592B74C4A6004C5195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF582B74C4A6004C5195 /* AppDelegate.swift */; };
-		90BEAF5D2B74C4A6004C5195 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF5C2B74C4A6004C5195 /* LoginViewController.swift */; };
 		90BEAF622B74C4A8004C5195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BEAF612B74C4A8004C5195 /* Assets.xcassets */; };
 		90BEAF652B74C4A8004C5195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BEAF632B74C4A8004C5195 /* LaunchScreen.storyboard */; };
 		90BEAF732B766061004C5195 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF722B766061004C5195 /* NetworkConfig.swift */; };
@@ -60,9 +67,16 @@
 		90127C212B7A72EA00CE7202 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		90127C232B7A78A600CE7202 /* DefaultLoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLoginRepository.swift; sourceTree = "<group>"; };
 		90127C262B7A795200CE7202 /* RepositoryTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTask.swift; sourceTree = "<group>"; };
+		90127C2A2B7A8F5B00CE7202 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		90127C2B2B7A8F5B00CE7202 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		90127C2F2B7A924700CE7202 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		90127C312B7A92FA00CE7202 /* UIColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
+		90127C332B7A964500CE7202 /* UILabel+styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+styles.swift"; sourceTree = "<group>"; };
+		90127C352B7A972D00CE7202 /* String+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
+		907FDD1A2B7A9E78000C3044 /* UIView+loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+loading.swift"; sourceTree = "<group>"; };
+		907FDD1C2B7AACC6000C3044 /* SnackBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBar.swift; sourceTree = "<group>"; };
 		90BEAF552B74C4A6004C5195 /* IdentityManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdentityManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BEAF582B74C4A6004C5195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90BEAF5C2B74C4A6004C5195 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		90BEAF612B74C4A8004C5195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90BEAF642B74C4A8004C5195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90BEAF662B74C4A8004C5195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -139,6 +153,9 @@
 		90127C0E2B7A5B7500CE7202 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				90BEAF612B74C4A8004C5195 /* Assets.xcassets */,
+				90BEAF632B74C4A8004C5195 /* LaunchScreen.storyboard */,
+				90BEAF662B74C4A8004C5195 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -156,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				90127C172B7A643000CE7202 /* Scene */,
+				90127C2E2B7A923600CE7202 /* Utils */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -198,7 +216,8 @@
 		90127C1B2B7A654800CE7202 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				90BEAF5C2B74C4A6004C5195 /* LoginViewController.swift */,
+				90127C2A2B7A8F5B00CE7202 /* LoginViewController.swift */,
+				90127C2B2B7A8F5B00CE7202 /* LoginViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,6 +234,19 @@
 			isa = PBXGroup;
 			children = (
 				90127C262B7A795200CE7202 /* RepositoryTask.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		90127C2E2B7A923600CE7202 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				90127C2F2B7A924700CE7202 /* CustomTextField.swift */,
+				907FDD1A2B7A9E78000C3044 /* UIView+loading.swift */,
+				90127C312B7A92FA00CE7202 /* UIColor+hex.swift */,
+				90127C332B7A964500CE7202 /* UILabel+styles.swift */,
+				907FDD1C2B7AACC6000C3044 /* SnackBar.swift */,
+				90127C352B7A972D00CE7202 /* String+extension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -245,9 +277,6 @@
 				90BEAF702B766011004C5195 /* Infrastructure */,
 				90BEAF7A2B7660DD004C5195 /* Common */,
 				90127C0E2B7A5B7500CE7202 /* Resources */,
-				90BEAF612B74C4A8004C5195 /* Assets.xcassets */,
-				90BEAF632B74C4A8004C5195 /* LaunchScreen.storyboard */,
-				90BEAF662B74C4A8004C5195 /* Info.plist */,
 			);
 			path = IdentityManager;
 			sourceTree = "<group>";
@@ -413,6 +442,7 @@
 			files = (
 				90BEAF652B74C4A8004C5195 /* LaunchScreen.storyboard in Resources */,
 				90BEAF622B74C4A8004C5195 /* Assets.xcassets in Resources */,
+				90127C2D2B7A8F5B00CE7202 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,12 +455,14 @@
 			files = (
 				90127C242B7A78A600CE7202 /* DefaultLoginRepository.swift in Sources */,
 				90BEAF7C2B7660EE004C5195 /* Cancellable.swift in Sources */,
+				907FDD1B2B7A9E78000C3044 /* UIView+loading.swift in Sources */,
 				90BEAF792B7660B1004C5195 /* DataTransferService.swift in Sources */,
 				90127BF82B7A0FB900CE7202 /* Login.swift in Sources */,
 				90127C002B7A385600CE7202 /* ImagesRepository.swift in Sources */,
 				90BEAF7E2B766103004C5195 /* ConnectionError.swift in Sources */,
 				90BEAF882B772D00004C5195 /* LoginRequestQuery.swift in Sources */,
 				90127C062B7A50E300CE7202 /* IdentityRepository.swift in Sources */,
+				90127C362B7A972D00CE7202 /* String+extension.swift in Sources */,
 				90BEAF772B76609E004C5195 /* NetworkService.swift in Sources */,
 				90127C1D2B7A656A00CE7202 /* LoginViewModel.swift in Sources */,
 				90127C132B7A628900CE7202 /* AppDIContainer.swift in Sources */,
@@ -438,20 +470,24 @@
 				90127C042B7A4E5400CE7202 /* IdentitiesRepository.swift in Sources */,
 				90127C022B7A48E000CE7202 /* LoginRepository.swift in Sources */,
 				90127BFC2B7A114000CE7202 /* IdentityResponseDTO+Mapping.swift in Sources */,
-				90BEAF5D2B74C4A6004C5195 /* LoginViewController.swift in Sources */,
 				90127C162B7A63D800CE7202 /* IdentityManagerFlowCoordinatorDependencies.swift in Sources */,
 				90127C102B7A60A300CE7202 /* AppFlowCoordinator.swift in Sources */,
 				90BEAF822B76D235004C5195 /* APIEndpoints.swift in Sources */,
+				90127C302B7A924700CE7202 /* CustomTextField.swift in Sources */,
+				90127C2C2B7A8F5B00CE7202 /* LoginViewController.swift in Sources */,
 				90BEAF8A2B772E50004C5195 /* LoginResponseDTO+Mapping.swift in Sources */,
 				90BEAF592B74C4A6004C5195 /* AppDelegate.swift in Sources */,
 				90BEAF802B766115004C5195 /* DispatchQueueType.swift in Sources */,
 				90127C082B7A543E00CE7202 /* FetchIdentitiesListUseCase.swift in Sources */,
 				90BEAF752B766085004C5195 /* Endpoint.swift in Sources */,
+				90127C322B7A92FA00CE7202 /* UIColor+hex.swift in Sources */,
+				90127C342B7A964500CE7202 /* UILabel+styles.swift in Sources */,
 				90BEAF732B766061004C5195 /* NetworkConfig.swift in Sources */,
 				90127C222B7A72EA00CE7202 /* Observable.swift in Sources */,
 				90127C272B7A795200CE7202 /* RepositoryTask.swift in Sources */,
 				90127BFA2B7A105900CE7202 /* Identity.swift in Sources */,
 				90127C0A2B7A54FF00CE7202 /* FetchLoginUseCase.swift in Sources */,
+				907FDD1D2B7AACC6000C3044 /* SnackBar.swift in Sources */,
 				90127C1F2B7A67F900CE7202 /* LoginSceneDIContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,7 +634,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XBNGPCQY3Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = IdentityManager/Info.plist;
+				INFOPLIST_FILE = IdentityManager/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -624,7 +660,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XBNGPCQY3Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = IdentityManager/Info.plist;
+				INFOPLIST_FILE = IdentityManager/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;

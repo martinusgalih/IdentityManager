@@ -26,10 +26,9 @@ final class LoginFlowCoordinator {
     }
     
     func start() {
-        // Note: here we keep strong reference with actions, this way this flow do not need to be strong referenced
         let actions = LoginViewModelActions(loginButtonTapped: loginButtonTapped)
         let vc = dependencies.makeLoginViewController(actions: actions)
-
+        navigationController?.isNavigationBarHidden = true
         navigationController?.pushViewController(vc, animated: false)
         loginVC = vc
     }

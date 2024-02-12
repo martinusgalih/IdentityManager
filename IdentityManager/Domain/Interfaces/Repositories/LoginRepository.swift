@@ -9,7 +9,8 @@ import Foundation
 
 protocol LoginRepository {
     @discardableResult
-    func fetchLogin(
-        completion: @escaping (Result<LoginPage, Error>) -> Void
+    func fetchLogin(username: String,
+                    password: String,
+                    completion: @escaping (Result<LoginPage, Error>) -> Void
     ) -> Cancellable?
 }

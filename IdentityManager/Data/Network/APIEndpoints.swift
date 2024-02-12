@@ -7,17 +7,24 @@
 
 import Foundation
 
+struct SuccessResponse<T>: Decodable where T: Decodable {
+    let responseCode: String?
+    let data: T
+    let responseMessage: String?
+}
+
 struct APIEndpoints {
     static var baseUrl: String {
         "https://run.mocky.io"
     }
     
-    static func login(username: String, password: String) -> Endpoint<LoginResponseDTO> {
+    static func login(username: String, password: String) -> Endpoint<SuccessResponse<LoginResponseDTO>> {
         let requestQuery = LoginRequestQuery(username: username, password: password)
         return Endpoint(
             path: "v3/076e7b24-1a47-42c6-b0a9-5ad49234331f",
-            method: .get
-            /// queryParametersEncodable: requestQuery
+            method: .post,
+            bodyParameters: ["username": requestQuery.username,
+                             "password": requestQuery.password]
         )
     }
     

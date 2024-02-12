@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 final class Observable<Value> {
     
@@ -37,5 +38,15 @@ final class Observable<Value> {
         for observer in observers {
             observer.block(self.value)
         }
+    }
+    
+    @objc private func textFieldDidChange(_ textField: UITextField) {
+        value = (textField.text ?? .emptyString) as! Value
+    }
+}
+
+extension Observable where Value: Equatable {
+    func bind(to textField: UITextField) {
+        textField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
     }
 }
