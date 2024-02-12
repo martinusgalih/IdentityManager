@@ -7,23 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90127BF82B7A0FB900CE7202 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127BF72B7A0FB900CE7202 /* Login.swift */; };
+		90127BFA2B7A105900CE7202 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127BF92B7A105900CE7202 /* Identity.swift */; };
+		90127BFC2B7A114000CE7202 /* IdentityResponseDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127BFB2B7A114000CE7202 /* IdentityResponseDTO+Mapping.swift */; };
+		90127C002B7A385600CE7202 /* ImagesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127BFF2B7A385600CE7202 /* ImagesRepository.swift */; };
+		90127C022B7A48E000CE7202 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C012B7A48E000CE7202 /* LoginRepository.swift */; };
+		90127C042B7A4E5400CE7202 /* IdentitiesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C032B7A4E5400CE7202 /* IdentitiesRepository.swift */; };
+		90127C062B7A50E300CE7202 /* IdentityRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C052B7A50E300CE7202 /* IdentityRepository.swift */; };
+		90127C082B7A543E00CE7202 /* FetchIdentitiesListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C072B7A543E00CE7202 /* FetchIdentitiesListUseCase.swift */; };
+		90127C0A2B7A54FF00CE7202 /* FetchLoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C092B7A54FF00CE7202 /* FetchLoginUseCase.swift */; };
+		90127C0C2B7A557C00CE7202 /* FetchIdentityUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C0B2B7A557C00CE7202 /* FetchIdentityUseCase.swift */; };
+		90127C102B7A60A300CE7202 /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C0F2B7A60A300CE7202 /* AppFlowCoordinator.swift */; };
+		90127C132B7A628900CE7202 /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C122B7A628900CE7202 /* AppDIContainer.swift */; };
+		90127C162B7A63D800CE7202 /* IdentityManagerFlowCoordinatorDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C152B7A63D800CE7202 /* IdentityManagerFlowCoordinatorDependencies.swift */; };
+		90127C1D2B7A656A00CE7202 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C1C2B7A656A00CE7202 /* LoginViewModel.swift */; };
+		90127C1F2B7A67F900CE7202 /* LoginSceneDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C1E2B7A67F900CE7202 /* LoginSceneDIContainer.swift */; };
+		90127C222B7A72EA00CE7202 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C212B7A72EA00CE7202 /* Observable.swift */; };
+		90127C242B7A78A600CE7202 /* DefaultLoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C232B7A78A600CE7202 /* DefaultLoginRepository.swift */; };
+		90127C272B7A795200CE7202 /* RepositoryTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90127C262B7A795200CE7202 /* RepositoryTask.swift */; };
 		90BEAF592B74C4A6004C5195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF582B74C4A6004C5195 /* AppDelegate.swift */; };
-		90BEAF5B2B74C4A6004C5195 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF5A2B74C4A6004C5195 /* SceneDelegate.swift */; };
-		90BEAF5D2B74C4A6004C5195 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF5C2B74C4A6004C5195 /* ViewController.swift */; };
-		90BEAF602B74C4A6004C5195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BEAF5E2B74C4A6004C5195 /* Main.storyboard */; };
+		90BEAF5D2B74C4A6004C5195 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF5C2B74C4A6004C5195 /* LoginViewController.swift */; };
 		90BEAF622B74C4A8004C5195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BEAF612B74C4A8004C5195 /* Assets.xcassets */; };
 		90BEAF652B74C4A8004C5195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BEAF632B74C4A8004C5195 /* LaunchScreen.storyboard */; };
+		90BEAF732B766061004C5195 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF722B766061004C5195 /* NetworkConfig.swift */; };
+		90BEAF752B766085004C5195 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF742B766085004C5195 /* Endpoint.swift */; };
+		90BEAF772B76609E004C5195 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF762B76609E004C5195 /* NetworkService.swift */; };
+		90BEAF792B7660B1004C5195 /* DataTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF782B7660B1004C5195 /* DataTransferService.swift */; };
+		90BEAF7C2B7660EE004C5195 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF7B2B7660EE004C5195 /* Cancellable.swift */; };
+		90BEAF7E2B766103004C5195 /* ConnectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF7D2B766103004C5195 /* ConnectionError.swift */; };
+		90BEAF802B766115004C5195 /* DispatchQueueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF7F2B766115004C5195 /* DispatchQueueType.swift */; };
+		90BEAF822B76D235004C5195 /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF812B76D235004C5195 /* APIEndpoints.swift */; };
+		90BEAF882B772D00004C5195 /* LoginRequestQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF872B772D00004C5195 /* LoginRequestQuery.swift */; };
+		90BEAF8A2B772E50004C5195 /* LoginResponseDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAF892B772E50004C5195 /* LoginResponseDTO+Mapping.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90127BF72B7A0FB900CE7202 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		90127BF92B7A105900CE7202 /* Identity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
+		90127BFB2B7A114000CE7202 /* IdentityResponseDTO+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IdentityResponseDTO+Mapping.swift"; sourceTree = "<group>"; };
+		90127BFF2B7A385600CE7202 /* ImagesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesRepository.swift; sourceTree = "<group>"; };
+		90127C012B7A48E000CE7202 /* LoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		90127C032B7A4E5400CE7202 /* IdentitiesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentitiesRepository.swift; sourceTree = "<group>"; };
+		90127C052B7A50E300CE7202 /* IdentityRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityRepository.swift; sourceTree = "<group>"; };
+		90127C072B7A543E00CE7202 /* FetchIdentitiesListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchIdentitiesListUseCase.swift; sourceTree = "<group>"; };
+		90127C092B7A54FF00CE7202 /* FetchLoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchLoginUseCase.swift; sourceTree = "<group>"; };
+		90127C0B2B7A557C00CE7202 /* FetchIdentityUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchIdentityUseCase.swift; sourceTree = "<group>"; };
+		90127C0F2B7A60A300CE7202 /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinator.swift; sourceTree = "<group>"; };
+		90127C122B7A628900CE7202 /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
+		90127C152B7A63D800CE7202 /* IdentityManagerFlowCoordinatorDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityManagerFlowCoordinatorDependencies.swift; sourceTree = "<group>"; };
+		90127C1C2B7A656A00CE7202 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		90127C1E2B7A67F900CE7202 /* LoginSceneDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSceneDIContainer.swift; sourceTree = "<group>"; };
+		90127C212B7A72EA00CE7202 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		90127C232B7A78A600CE7202 /* DefaultLoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLoginRepository.swift; sourceTree = "<group>"; };
+		90127C262B7A795200CE7202 /* RepositoryTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTask.swift; sourceTree = "<group>"; };
 		90BEAF552B74C4A6004C5195 /* IdentityManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdentityManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BEAF582B74C4A6004C5195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90BEAF5A2B74C4A6004C5195 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		90BEAF5C2B74C4A6004C5195 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		90BEAF5F2B74C4A6004C5195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90BEAF5C2B74C4A6004C5195 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		90BEAF612B74C4A8004C5195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90BEAF642B74C4A8004C5195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90BEAF662B74C4A8004C5195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90BEAF722B766061004C5195 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		90BEAF742B766085004C5195 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		90BEAF762B76609E004C5195 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		90BEAF782B7660B1004C5195 /* DataTransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransferService.swift; sourceTree = "<group>"; };
+		90BEAF7B2B7660EE004C5195 /* Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
+		90BEAF7D2B766103004C5195 /* ConnectionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionError.swift; sourceTree = "<group>"; };
+		90BEAF7F2B766115004C5195 /* DispatchQueueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueType.swift; sourceTree = "<group>"; };
+		90BEAF812B76D235004C5195 /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		90BEAF872B772D00004C5195 /* LoginRequestQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestQuery.swift; sourceTree = "<group>"; };
+		90BEAF892B772E50004C5195 /* LoginResponseDTO+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginResponseDTO+Mapping.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +89,136 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90127BF42B7A0E6C00CE7202 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				90127BF72B7A0FB900CE7202 /* Login.swift */,
+				90127BF92B7A105900CE7202 /* Identity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		90127BF52B7A0F0F00CE7202 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				90127C072B7A543E00CE7202 /* FetchIdentitiesListUseCase.swift */,
+				90127C0B2B7A557C00CE7202 /* FetchIdentityUseCase.swift */,
+				90127C092B7A54FF00CE7202 /* FetchLoginUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		90127BF62B7A0F1A00CE7202 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				90127BFE2B7A383E00CE7202 /* Repositories */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		90127BFD2B7A2CD700CE7202 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				90127C232B7A78A600CE7202 /* DefaultLoginRepository.swift */,
+				90127C252B7A794500CE7202 /* Utils */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		90127BFE2B7A383E00CE7202 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				90127BFF2B7A385600CE7202 /* ImagesRepository.swift */,
+				90127C012B7A48E000CE7202 /* LoginRepository.swift */,
+				90127C032B7A4E5400CE7202 /* IdentitiesRepository.swift */,
+				90127C052B7A50E300CE7202 /* IdentityRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		90127C0E2B7A5B7500CE7202 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		90127C112B7A60DA00CE7202 /* DIContainer */ = {
+			isa = PBXGroup;
+			children = (
+				90127C122B7A628900CE7202 /* AppDIContainer.swift */,
+				90127C1E2B7A67F900CE7202 /* LoginSceneDIContainer.swift */,
+			);
+			path = DIContainer;
+			sourceTree = "<group>";
+		};
+		90127C142B7A63A600CE7202 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				90127C172B7A643000CE7202 /* Scene */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		90127C172B7A643000CE7202 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				90127C182B7A643E00CE7202 /* Flows */,
+				90127C192B7A64B300CE7202 /* LoginPage */,
+				90127C202B7A72CE00CE7202 /* Utils */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		90127C182B7A643E00CE7202 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				90127C152B7A63D800CE7202 /* IdentityManagerFlowCoordinatorDependencies.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		90127C192B7A64B300CE7202 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				90127C1B2B7A654800CE7202 /* View */,
+				90127C1A2B7A653F00CE7202 /* ViewModel */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		90127C1A2B7A653F00CE7202 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				90127C1C2B7A656A00CE7202 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		90127C1B2B7A654800CE7202 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90BEAF5C2B74C4A6004C5195 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90127C202B7A72CE00CE7202 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				90127C212B7A72EA00CE7202 /* Observable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		90127C252B7A794500CE7202 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				90127C262B7A795200CE7202 /* RepositoryTask.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		90BEAF4C2B74C4A6004C5195 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +238,119 @@
 		90BEAF572B74C4A6004C5195 /* IdentityManager */ = {
 			isa = PBXGroup;
 			children = (
-				90BEAF582B74C4A6004C5195 /* AppDelegate.swift */,
-				90BEAF5A2B74C4A6004C5195 /* SceneDelegate.swift */,
-				90BEAF5C2B74C4A6004C5195 /* ViewController.swift */,
-				90BEAF5E2B74C4A6004C5195 /* Main.storyboard */,
+				90BEAF6C2B7532C1004C5195 /* Application */,
+				90BEAF6D2B765F96004C5195 /* Domain */,
+				90127C142B7A63A600CE7202 /* Presenter */,
+				90BEAF6E2B765FB2004C5195 /* Data */,
+				90BEAF702B766011004C5195 /* Infrastructure */,
+				90BEAF7A2B7660DD004C5195 /* Common */,
+				90127C0E2B7A5B7500CE7202 /* Resources */,
 				90BEAF612B74C4A8004C5195 /* Assets.xcassets */,
 				90BEAF632B74C4A8004C5195 /* LaunchScreen.storyboard */,
 				90BEAF662B74C4A8004C5195 /* Info.plist */,
 			);
 			path = IdentityManager;
+			sourceTree = "<group>";
+		};
+		90BEAF6C2B7532C1004C5195 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				90BEAF582B74C4A6004C5195 /* AppDelegate.swift */,
+				90127C0F2B7A60A300CE7202 /* AppFlowCoordinator.swift */,
+				90127C112B7A60DA00CE7202 /* DIContainer */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		90BEAF6D2B765F96004C5195 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				90127BF42B7A0E6C00CE7202 /* Entities */,
+				90127BF52B7A0F0F00CE7202 /* UseCases */,
+				90127BF62B7A0F1A00CE7202 /* Interfaces */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		90BEAF6E2B765FB2004C5195 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				90BEAF6F2B765FE5004C5195 /* Network */,
+				90127BFD2B7A2CD700CE7202 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		90BEAF6F2B765FE5004C5195 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				90BEAF812B76D235004C5195 /* APIEndpoints.swift */,
+				90BEAF832B772CB5004C5195 /* DataMapping */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		90BEAF702B766011004C5195 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				90BEAF712B76604F004C5195 /* Network */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		90BEAF712B76604F004C5195 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				90BEAF722B766061004C5195 /* NetworkConfig.swift */,
+				90BEAF742B766085004C5195 /* Endpoint.swift */,
+				90BEAF762B76609E004C5195 /* NetworkService.swift */,
+				90BEAF782B7660B1004C5195 /* DataTransferService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		90BEAF7A2B7660DD004C5195 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				90BEAF7B2B7660EE004C5195 /* Cancellable.swift */,
+				90BEAF7D2B766103004C5195 /* ConnectionError.swift */,
+				90BEAF7F2B766115004C5195 /* DispatchQueueType.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		90BEAF832B772CB5004C5195 /* DataMapping */ = {
+			isa = PBXGroup;
+			children = (
+				90BEAF842B772CCB004C5195 /* Repositories */,
+			);
+			path = DataMapping;
+			sourceTree = "<group>";
+		};
+		90BEAF842B772CCB004C5195 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				90BEAF852B772CD7004C5195 /* Request */,
+				90BEAF862B772CDC004C5195 /* Response */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		90BEAF852B772CD7004C5195 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				90BEAF872B772D00004C5195 /* LoginRequestQuery.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		90BEAF862B772CDC004C5195 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				90BEAF892B772E50004C5195 /* LoginResponseDTO+Mapping.swift */,
+				90127BFB2B7A114000CE7202 /* IdentityResponseDTO+Mapping.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +413,6 @@
 			files = (
 				90BEAF652B74C4A8004C5195 /* LaunchScreen.storyboard in Resources */,
 				90BEAF622B74C4A8004C5195 /* Assets.xcassets in Resources */,
-				90BEAF602B74C4A6004C5195 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +423,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90BEAF5D2B74C4A6004C5195 /* ViewController.swift in Sources */,
+				90127C242B7A78A600CE7202 /* DefaultLoginRepository.swift in Sources */,
+				90BEAF7C2B7660EE004C5195 /* Cancellable.swift in Sources */,
+				90BEAF792B7660B1004C5195 /* DataTransferService.swift in Sources */,
+				90127BF82B7A0FB900CE7202 /* Login.swift in Sources */,
+				90127C002B7A385600CE7202 /* ImagesRepository.swift in Sources */,
+				90BEAF7E2B766103004C5195 /* ConnectionError.swift in Sources */,
+				90BEAF882B772D00004C5195 /* LoginRequestQuery.swift in Sources */,
+				90127C062B7A50E300CE7202 /* IdentityRepository.swift in Sources */,
+				90BEAF772B76609E004C5195 /* NetworkService.swift in Sources */,
+				90127C1D2B7A656A00CE7202 /* LoginViewModel.swift in Sources */,
+				90127C132B7A628900CE7202 /* AppDIContainer.swift in Sources */,
+				90127C0C2B7A557C00CE7202 /* FetchIdentityUseCase.swift in Sources */,
+				90127C042B7A4E5400CE7202 /* IdentitiesRepository.swift in Sources */,
+				90127C022B7A48E000CE7202 /* LoginRepository.swift in Sources */,
+				90127BFC2B7A114000CE7202 /* IdentityResponseDTO+Mapping.swift in Sources */,
+				90BEAF5D2B74C4A6004C5195 /* LoginViewController.swift in Sources */,
+				90127C162B7A63D800CE7202 /* IdentityManagerFlowCoordinatorDependencies.swift in Sources */,
+				90127C102B7A60A300CE7202 /* AppFlowCoordinator.swift in Sources */,
+				90BEAF822B76D235004C5195 /* APIEndpoints.swift in Sources */,
+				90BEAF8A2B772E50004C5195 /* LoginResponseDTO+Mapping.swift in Sources */,
 				90BEAF592B74C4A6004C5195 /* AppDelegate.swift in Sources */,
-				90BEAF5B2B74C4A6004C5195 /* SceneDelegate.swift in Sources */,
+				90BEAF802B766115004C5195 /* DispatchQueueType.swift in Sources */,
+				90127C082B7A543E00CE7202 /* FetchIdentitiesListUseCase.swift in Sources */,
+				90BEAF752B766085004C5195 /* Endpoint.swift in Sources */,
+				90BEAF732B766061004C5195 /* NetworkConfig.swift in Sources */,
+				90127C222B7A72EA00CE7202 /* Observable.swift in Sources */,
+				90127C272B7A795200CE7202 /* RepositoryTask.swift in Sources */,
+				90127BFA2B7A105900CE7202 /* Identity.swift in Sources */,
+				90127C0A2B7A54FF00CE7202 /* FetchLoginUseCase.swift in Sources */,
+				90127C1F2B7A67F900CE7202 /* LoginSceneDIContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		90BEAF5E2B74C4A6004C5195 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				90BEAF5F2B74C4A6004C5195 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		90BEAF632B74C4A8004C5195 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +601,7 @@
 				INFOPLIST_FILE = IdentityManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +627,7 @@
 				INFOPLIST_FILE = IdentityManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
