@@ -21,7 +21,7 @@ final class AppFlowCoordinator {
     }
 
     func start() {
-        // In App Flow we can check if user needs to login, if yes we would run login flow
+        // TODO: - check if user needs to login, if yes we would run login flow
         let sceneDIContainer = appDIContainer.makeLoginSceneDIContainer()
         let flow = sceneDIContainer.makeLoginFlowCoordinator(navigationController: navigationController)
         flow.start()
